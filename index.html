@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz app</title>
+</head>
+<body>
+
+
+    <div class="navbar">
+        <h1>Quizzia</h1>
+        <a href="index.html">Home</a>
+    </div>
+
+    <div id="main_container">
+
+        <div id="welcome_text">
+            <p>Welcome to the Quizzia app, test your knowledge here</p>
+            <button id="start_btn" onclick="startQuiz()">Start Quiz</button>
+        </div>
+
+        <div id="question">
+            <h2 id="ques"></h2>    
+        </div>
+
+        <div id="answers">
+            <ul id="options"></ul>
+        </div>
+
+        <div id="buttons">
+            <button id="next_btn" onclick="showNextQues()">Next</button>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
